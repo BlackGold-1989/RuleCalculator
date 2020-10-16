@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#a0c456</color>
+    <color name="colorPrimaryDark">#a0c456</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="colorTextBlack">#303030</color>
+    <color name="colorTextHint">#50707070</color>
+
+    <color name="colorFrgBack">#f0f0f0</color>
+
+    <color name="colorTabSelected">#a0c456</color>
+    <color name="colorTabUnsel">#a0707070</color>
+
+    <color name="colorMainWhite">#ffffff</color>
+    <color name="colorMainGreen">#a0c456</color>
+    <color name="colorMainRed">#DA0000</color>
+
+</resources>

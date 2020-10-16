@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_formula_seven"
+            android:tag="number"
+            style="@style/mb_item"
+            android:text="7"/>
+
+        <Button
+            android:id="@+id/btn_formula_eight"
+            android:tag="number"
+            style="@style/mb_item"
+            android:text="8"/>
+
+        <Button
+            android:id="@+id/btn_formula_nine"
+            android:tag="number"
+            style="@style/mb_item"
+            android:text="9"/>
+
+        <Button
+            android:layout_marginRight="10dp"
+            android:id="@+id/btn_formula_divide"
+            android:tag="operate"
+            style="@style/mb_item"
+            android:text="/"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_formula_four"
+            android:tag="number"
+            style="@style/mb_item"
+            android:text="4"/>
+
+        <Button
+            android:id="@+id/btn_formula_five"
+            android:tag="number"
+            style="@style/mb_item"
+            android:text="5"/>
+
+        <Button
+            android:id="@+id/btn_formula_six"
+            android:tag="number"
+            style="@style/mb_item"
+            android:text="6"/>
+
+        <Button
+            android:layout_marginRight="10dp"
+            android:id="@+id/btn_formula_multi"
+            android:tag="operate"
+            style="@style/mb_item"
+            android:text="*"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_formula_one"
+            android:tag="number"
+            style="@style/mb_item"
+            android:text="1"/>
+
+        <Button
+            android:id="@+id/btn_formula_two"
+            android:tag="number"
+            style="@style/mb_item"
+            android:text="2"/>
+
+        <Button
+            android:id="@+id/btn_formula_three"
+            android:tag="number"
+            style="@style/mb_item"
+            android:text="3"/>
+
+        <Button
+            android:layout_marginRight="10dp"
+            android:id="@+id/btn_formula_minu"
+            android:tag="operate"
+            style="@style/mb_item"
+            android:text="-"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_formula_zero"
+            android:tag="number"
+            style="@style/mb_item"
+            android:text="0"/>
+
+        <Button
+            android:id="@+id/btn_formula_point"
+            android:tag="point"
+            style="@style/mb_item"
+            android:text="."/>
+
+        <Button
+            android:id="@+id/btn_formula_equal"
+            android:tag="equal"
+            style="@style/mb_item"
+            android:text="="/>
+
+        <Button
+            android:layout_marginRight="10dp"
+            android:id="@+id/btn_formula_plus"
+            android:tag="operate"
+            style="@style/mb_item"
+            android:text="+"/>
+    </LinearLayout>
+
+</LinearLayout>

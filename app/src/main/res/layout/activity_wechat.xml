@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorFrgBack"
+    tools:context=".activity.WechatPayActivity"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_marginBottom="1dp"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorMainGreen"
+        android:theme="@style/ToolbarTheme"
+        app:title="@string/profile_wechat_payment"
+        app:titleTextColor="@color/colorMainWhite"
+        app:navigationIcon="@drawable/ic_left_white"
+        android:elevation="5dp" />
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="4"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            style="@style/llt_wechat_pay"
+            android:onClick="onClickBtnPayment01">
+
+            <TextView
+                android:layout_marginTop="8dp"
+                style="@style/lbl_content.black"
+                android:text="1 商品"/>
+
+            <ImageView style="@style/img_wechat_pay"/>
+
+            <TextView
+                android:layout_marginBottom="4dp"
+                style="@style/lbl_content.black"
+                android:text="0.99 元"
+                android:textStyle="bold"
+                android:textColor="@android:color/holo_orange_dark"/>
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/llt_wechat_pay"
+            android:onClick="onClickBtnPayment02">
+
+            <TextView
+                android:layout_marginTop="8dp"
+                style="@style/lbl_content.black"
+                android:text="60 商品"/>
+
+            <ImageView style="@style/img_wechat_pay"/>
+
+            <TextView
+                android:layout_marginBottom="4dp"
+                style="@style/lbl_content.black"
+                android:text="49.95 元"
+                android:textStyle="bold"
+                android:textColor="@android:color/holo_orange_dark"/>
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/llt_wechat_pay"
+            android:onClick="onClickBtnPayment03">
+
+            <TextView
+                android:layout_marginTop="8dp"
+                style="@style/lbl_content.black"
+                android:text="200 商品"/>
+
+            <ImageView style="@style/img_wechat_pay"/>
+
+            <TextView
+                android:layout_marginBottom="4dp"
+                style="@style/lbl_content.black"
+                android:text="99.9 元"
+                android:textStyle="bold"
+                android:textColor="@android:color/holo_orange_dark"/>
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/llt_wechat_pay"
+            android:onClick="onClickBtnPayment04">
+
+            <TextView
+                android:layout_marginTop="8dp"
+                style="@style/lbl_content.black"
+                android:text="500 商品"/>
+
+            <ImageView style="@style/img_wechat_pay"/>
+
+            <TextView
+                android:layout_marginBottom="4dp"
+                style="@style/lbl_content.black"
+                android:text="159 元"
+                android:textStyle="bold"
+                android:textColor="@android:color/holo_orange_dark"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

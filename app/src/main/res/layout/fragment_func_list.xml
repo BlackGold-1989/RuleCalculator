@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ListView
+        android:layout_marginTop="12sp"
+        android:layout_marginBottom="8dp"
+        android:id="@+id/lst_func_item"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:id="@+id/llt_floating"
+        style="@style/llt_floating">
+        <TextView style="@style/lbl_floating"/>
+    </LinearLayout>
+
+</RelativeLayout>

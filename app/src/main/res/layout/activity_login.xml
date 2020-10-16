@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:background="@color/colorMainWhite"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_marginTop="45sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/kaiti"
+        android:text="@string/app_name"
+        android:textColor="@color/colorMainWhite"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:shadowColor="#80000000"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="3"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:src="@drawable/logo"/>
+    </androidx.cardview.widget.CardView>
+
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/tll_login_userid"
+            style="@style/mt_back"
+            app:endIconMode="custom"
+            app:endIconDrawable="@drawable/ic_userid"
+            android:hint="@string/login_userid">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/txt_login_id"
+                android:inputType="textCapWords"
+                style="@style/mt_text"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/tll_login_pass"
+            style="@style/mt_back"
+            app:endIconMode="password_toggle"
+            android:hint="@string/common_pass">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/txt_login_pass"
+                android:inputType="textPassword"
+                style="@style/mt_text"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <CheckBox
+            android:id="@+id/chk_login_term"
+            style="@style/lbl_content.black.14"
+            android:buttonTint="@color/colorMainGreen"
+            android:text="@string/login_remember"/>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent" />
+
+        <TextView
+            style="@style/lbl_content.blue.14"
+            android:text="@string/login_forgot"
+            android:onClick="onClickLblForgot"/>
+    </LinearLayout>
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        style="@style/mb_back.green"
+        android:text="@string/login_title"
+        android:onClick="onClickBtnLogin" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/ic_wechat"
+            android:onClick="onClickWechatLogin"/>
+
+        <ImageView
+            android:layout_marginLeft="50dp"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/ic_qq"
+            android:visibility="gone"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <TextView
+            android:text="@string/login_agree_title"
+            style="@style/lbl_detail.black"/>
+
+        <TextView
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            android:text="@string/dig_down_title"
+            android:onClick="onClickLblDownloadUsed"
+            style="@style/lbl_detail.blue"/>
+
+        <TextView
+            android:text="@string/login_and"
+            style="@style/lbl_detail.black"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <TextView
+            android:text="@string/dig_privacy_policy"
+            android:onClick="onClickLblContact"
+            style="@style/lbl_detail.green"/>
+
+        <TextView
+            android:layout_marginRight="4dp"
+            android:layout_marginLeft="4dp"
+            android:text="@string/login_or"
+            style="@style/lbl_detail.black"/>
+
+        <TextView
+            android:text="@string/dig_user_agreement"
+            android:onClick="onClickLblUserAgreement"
+            style="@style/lbl_detail.green"/>
+    </LinearLayout>
+
+</LinearLayout>

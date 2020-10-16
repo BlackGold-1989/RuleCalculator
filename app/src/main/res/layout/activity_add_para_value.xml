@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorFrgBack"
+    tools:context=".activity.AddParaValueActivity"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_marginBottom="1dp"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorMainGreen"
+        android:theme="@style/ToolbarTheme"
+        app:title="@string/act_add_value_title"
+        app:titleTextColor="@color/colorMainWhite"
+        app:navigationIcon="@drawable/ic_left_white"
+        app:menu="@menu/menu_add_para"
+        android:elevation="5dp" />
+
+    <ListView
+        android:id="@+id/lst_add_para"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <Button
+            android:text="@string/common_save"
+            style="@style/mb_back.green"
+            android:onClick="onClickSaveBtn"/>
+    </LinearLayout>
+
+</LinearLayout>

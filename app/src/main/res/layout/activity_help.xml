@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorFrgBack"
+    tools:context=".activity.HelpActivity"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_marginBottom="1dp"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorMainGreen"
+        app:title="@string/profile_function_report"
+        app:titleTextColor="@color/colorMainWhite"
+        app:navigationIcon="@drawable/ic_left_white"
+        app:menu="@menu/menu_help"
+        android:elevation="5dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/txt_help_name"
+            style="@style/txt_profile"
+            android:inputType="textCapWords"
+            android:layout_marginTop="20dp"
+            android:drawableLeft="@drawable/ic_userid"
+            android:hint="@string/item_function_name"/>
+
+        <EditText
+            android:id="@+id/txt_help_description"
+            style="@style/txt_profile"
+            android:inputType="textCapWords"
+            android:layout_marginTop="20dp"
+            android:drawableLeft="@drawable/ic_edit"
+            android:hint="@string/item_create_description"/>
+
+        <LinearLayout
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/white_12"
+            android:elevation="5dp">
+
+            <ScrollView
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/lbl_help_main"
+                    android:gravity="top|left"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorTextBlack"
+                    android:textSize="16dp"/>
+            </ScrollView>
+        </LinearLayout>
+
+        <Button
+            android:layout_margin="10dp"
+            style="@style/mb_back.green"
+            android:text="@string/help_action"
+            android:onClick="onClickBtnHelp" />
+
+    </LinearLayout>
+    
+</LinearLayout>

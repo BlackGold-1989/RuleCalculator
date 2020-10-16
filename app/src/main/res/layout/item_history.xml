@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_marginTop="6dp"
+        android:layout_marginBottom="4dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/white_4"
+        android:elevation="2dp">
+
+        <LinearLayout
+            android:layout_marginLeft="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/lbl_item_index"
+                android:layout_margin="8dp"
+                style="@style/lbl_content.black.14"
+                android:text="1. "
+                android:gravity="center"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_margin="4dp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/lbl_item_name"
+                style="@style/lbl_content.black.14"
+                android:text="Function Name"/>
+
+            <TextView
+                android:id="@+id/lbl_item_date"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
+                android:alpha="0.5"
+                style="@style/lbl_detail.black"
+                android:text="2019-05-11 00:00:00"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

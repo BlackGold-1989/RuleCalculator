@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_marginTop="90dp"
+    android:layout_marginBottom="90dp"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/white_12"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_marginStart="20dp"
+            style="@style/lbl_content.black"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:text="所有用户"/>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/lbl_dialog_select"
+            style="@style/lbl_content.blue"
+            android:layout_marginEnd="20dp"
+            android:text="全选"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorTextBlack"/>
+
+    <ListView
+        android:id="@+id/lst_dialog_user"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorTextBlack"/>
+
+    <Button
+        android:id="@+id/btn_dialog_share"
+        android:layout_margin="10dp"
+        style="@style/mb_back.green"
+        android:text="分享" />
+
+</LinearLayout>

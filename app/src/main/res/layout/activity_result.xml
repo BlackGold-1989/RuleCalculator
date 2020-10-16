@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorFrgBack"
+    tools:context=".activity.ResultActivity"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_marginBottom="1dp"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorMainGreen"
+        android:theme="@style/ToolbarTheme"
+        app:title="@string/result_title"
+        app:titleTextColor="@color/colorMainWhite"
+        app:navigationIcon="@drawable/ic_left_white"
+        app:menu="@menu/menu_result"
+        android:elevation="5dp" />
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/lbl_result_title"
+            style="@style/lbl_content.black"
+            android:text="计算器结果。"
+            android:gravity="center"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <ListView
+            android:id="@+id/lst_result"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+    <Button
+        android:layout_margin="10dp"
+        android:text="@string/formula_save"
+        style="@style/mb_back.green"
+        android:onClick="onClickSaveBtn"/>
+
+    <Button
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="@string/formula_go_main"
+        style="@style/mb_back.green"
+        android:onClick="onClickGoMainBtn"/>
+    
+</LinearLayout>

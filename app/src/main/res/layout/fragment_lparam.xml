@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_formula_if"
+            android:tag="if"
+            style="@style/mb_item"
+            android:text="如果"/>
+
+        <Button
+            android:id="@+id/btn_formula_b01o"
+            android:tag="bundle"
+            style="@style/mb_item"
+            android:text="("/>
+
+        <Button
+            android:id="@+id/btn_formula_more"
+            android:tag="logical"
+            style="@style/mb_item"
+            android:text="@string/formula_more"/>
+
+        <Button
+            android:layout_marginRight="10dp"
+            android:id="@+id/btn_formula_enter"
+            android:tag="enter"
+            style="@style/mb_item"
+            android:text="确定"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:tag="number"
+            style="@style/mb_item"
+            android:visibility="invisible"/>
+
+        <Button
+            android:id="@+id/btn_formula_b01c"
+            android:tag="bundle"
+            style="@style/mb_item"
+            android:text=")"/>
+
+        <Button
+            android:id="@+id/btn_formula_less"
+            android:tag="logical"
+            style="@style/mb_item"
+            android:text="@string/formula_less"/>
+
+        <Button
+            android:layout_marginRight="10dp"
+            android:id="@+id/btn_formula_space"
+            android:tag="space"
+            style="@style/mb_item"
+            android:text="下一页"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_formula_back"
+            android:tag="back"
+            style="@style/mb_item"
+            android:text="删除"/>
+
+        <Button
+            android:id="@+id/btn_formula_b02o"
+            android:tag="bundle"
+            style="@style/mb_item"
+            android:text="{"/>
+
+        <Button
+            android:id="@+id/btn_formula_lequal"
+            android:tag="logical"
+            style="@style/mb_item"
+            android:text="=="/>
+
+        <Button
+            android:layout_marginRight="10dp"
+            style="@style/mb_item"
+            android:visibility="invisible"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_formula_clear"
+            android:tag="clear"
+            style="@style/mb_item"
+            android:text="明确"/>
+
+        <Button
+            android:id="@+id/btn_formula_b02c"
+            android:tag="bundle"
+            style="@style/mb_item"
+            android:text="}"/>
+
+        <Button
+            android:id="@+id/btn_formula_lunequal"
+            android:tag="logical"
+            style="@style/mb_item"
+            android:text="!="/>
+
+        <Button
+            android:layout_marginRight="10dp"
+            android:id="@+id/btn_formula_result"
+            android:tag="result"
+            style="@style/mb_item"
+            android:text="结果"/>
+    </LinearLayout>
+
+</LinearLayout>

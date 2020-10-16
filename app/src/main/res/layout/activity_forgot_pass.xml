@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/colorFrgBack"
+    tools:context=".activity.ForgotPassActivity"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_marginBottom="1dp"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorMainGreen"
+        android:theme="@style/ToolbarTheme"
+        app:title="忘记密码"
+        app:titleTextColor="@color/colorMainWhite"
+        app:navigationIcon="@drawable/ic_left_white"
+        android:elevation="5dp" />
+
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/tll_forgot_userid"
+            style="@style/mt_back"
+            app:endIconMode="custom"
+            app:endIconDrawable="@drawable/ic_userid"
+            android:hint="@string/login_userid">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/txt_forgot_id"
+                android:textColor="@color/colorTextBlack"
+                style="@style/mt_text"
+                android:inputType="textCapWords"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+    </LinearLayout>
+
+    <CheckBox
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:id="@+id/chk_forgot_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:buttonTint="@color/colorMainGreen"
+        android:textColor="@color/colorTextBlack"
+        android:text="@string/forgot_user_id"/>
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        style="@style/mb_back.green"
+        android:text="@string/common_next"
+        android:onClick="onClickBtnForgot" />
+
+</LinearLayout>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorFrgBack"
+    tools:context=".activity.ParaSettingActivity"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_marginBottom="1dp"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorMainGreen"
+        app:navigationIcon="@drawable/ic_left_white"
+        app:title="@string/setting_parameters_title"
+        app:titleTextColor="@color/colorMainWhite"
+        app:menu="@menu/menu_set_para"
+        android:elevation="5dp"
+        android:theme="@style/ToolbarTheme"/>
+
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            style="@style/lbl_content.black"
+            android:gravity="center"
+            android:text="@string/item_create_name"/>
+
+        <EditText
+            android:id="@+id/txt_setpara_name"
+            style="@style/lbl_content.black"
+            android:layout_marginStart="12sp"
+            android:layout_width="match_parent"
+            android:inputType="text"
+            android:hint="@string/setpara_hint_name"
+            android:textColorHint="@color/colorTextHint"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            style="@style/lbl_content.black"
+            android:gravity="center"
+            android:text="@string/item_create_description"/>
+
+        <EditText
+            android:id="@+id/txt_setpara_desc"
+            style="@style/lbl_content.black"
+            android:layout_marginStart="12sp"
+            android:layout_width="match_parent"
+            android:hint="@string/setpara_hint_desc"
+            android:textColorHint="@color/colorTextHint"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <LinearLayout
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btn_setpara_set"
+            android:text="@string/common_next"
+            style="@style/mb_back.green"/>
+    </LinearLayout>
+</LinearLayout>

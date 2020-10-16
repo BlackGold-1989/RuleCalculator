@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/colorFrgBack"
+    tools:context=".activity.UserDetailActivity"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_marginBottom="1dp"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorMainGreen"
+        android:theme="@style/ToolbarTheme"
+        app:title="用户详细信息"
+        app:titleTextColor="@color/colorMainWhite"
+        app:navigationIcon="@drawable/ic_left_white"
+        android:elevation="5dp" />
+
+    <LinearLayout
+        android:layout_marginTop="12dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="2dp"
+        android:background="@drawable/white_12"
+        android:gravity="center_vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            app:cardCornerRadius="40dp">
+
+            <ImageView
+                android:id="@+id/img_user_avatar"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/logo" />
+        </androidx.cardview.widget.CardView>
+
+        <LinearLayout
+            android:layout_marginStart="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/lbl_user_name"
+                    style="@style/lbl_content.black"
+                    android:textAlignment="center"
+                    android:text="@string/nav_name" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="4dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    style="@style/lbl_detail.black"
+                    android:text="用户身份：" />
+
+                <TextView
+                    android:id="@+id/lbl_user_id"
+                    android:alpha="0.5"
+                    style="@style/lbl_detail.black"
+                    android:text="@string/nav_location" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="4dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    style="@style/lbl_detail.black"
+                    android:text="修改日期：" />
+
+                <TextView
+                    android:id="@+id/lbl_user_regdate"
+                    android:alpha="0.5"
+                    style="@style/lbl_detail.black"
+                    android:text="@string/result_date" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:layout_marginTop="12dp"
+        android:layout_marginStart="10dp"
+        style="@style/lbl_content.black"
+        android:text="用户项目"/>
+
+    <ListView
+        android:id="@+id/lst_user_project"
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

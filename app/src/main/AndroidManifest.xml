@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.shindev.rulecalculator">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:networkSecurityConfig="@xml/config"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning"
+        android:usesCleartextTraffic="true">
+
+        <activity android:name=".activity.SplashActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.MaterialComponents.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".activity.LoginActivity"
+            android:screenOrientation="portrait" />
+
+        <activity android:name=".activity.MainActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".activity.FunctionDetailActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".activity.GuideFunctionActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".activity.ParameterActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".activity.ParaSettingActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".activity.FormulaActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".activity.TestAlgorithmActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".activity.SaveAlgorithmActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".activity.GuideProjectActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".activity.SelFunctionActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".activity.CreateProjectActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".activity.ProjectDetailActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".activity.CalcActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".activity.AddParaValueActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".activity.ResultActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".activity.GuideActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".activity.SupportActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".activity.EditProfileActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".activity.WechatPayActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".activity.HelpActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".activity.ForgotPassActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".activity.UserDetailActivity"
+            android:screenOrientation="portrait"/>
+
+        <!--微信 start-->
+        <activity android:name=".wxapi.WXEntryActivity"
+            android:exported="true"
+            android:launchMode="singleTop"
+            android:theme="@style/wx_login_style"
+            android:configChanges="orientation|keyboardHidden|screenSize" />
+
+        <activity
+            android:name=".wxapi.WXPayEntryActivity"
+            android:exported="true"
+            android:launchMode="singleTop"/>
+        <!--微信 end-->
+
+        <uses-library android:name="org.apache.http.legacy"
+            android:required="false" />
+
+    </application>
+
+</manifest>

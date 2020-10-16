@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorFrgBack"
+    android:orientation="vertical"
+    tools:context=".activity.SupportActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_marginBottom="1dp"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorMainGreen"
+        app:title="@string/profile_support"
+        app:titleTextColor="@color/colorMainWhite"
+        app:navigationIcon="@drawable/ic_left_white"
+        android:theme="@style/ToolbarTheme"
+        android:elevation="5dp" />
+
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <Button
+            android:text="@string/call_support_team"
+            style="@style/mb_back.green"
+            android:onClick="onClickBtnCall"/>
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/wechat" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/wechat" />
+
+            <LinearLayout
+                android:layout_marginBottom="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    style="@style/lbl_content.black"
+                    android:text="@string/dialog_term_title"/>
+            </LinearLayout>
+
+            <TextView
+                style="@style/lbl_detail.black"
+                android:lineSpacingExtra="5dp"
+                android:text="@string/dialog_term_privacy"                 />
+
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    style="@style/lbl_content.black"
+                    android:text="@string/support_term_title"/>
+            </LinearLayout>
+
+            <TextView
+                android:layout_marginBottom="20dp"
+                style="@style/lbl_detail.black"
+                android:lineSpacingExtra="5dp"
+                android:text="@string/login_term_detail" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

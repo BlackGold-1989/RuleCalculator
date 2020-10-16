@@ -1,0 +1,2 @@
+include ':app', ':bubblealert'
+rootProject.name='RuleCalculator'

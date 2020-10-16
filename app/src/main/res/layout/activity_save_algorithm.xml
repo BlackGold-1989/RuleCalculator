@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorFrgBack"
+    tools:context=".activity.SaveAlgorithmActivity"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_marginBottom="1dp"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorMainGreen"
+        app:title="@string/save_algorithm_title"
+        app:titleTextColor="@color/colorMainWhite"
+        app:navigationIcon="@drawable/ic_left_white"
+        android:elevation="5dp"
+        android:theme="@style/ToolbarTheme"/>
+
+    <LinearLayout
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            style="@style/lbl_processing.done"
+            android:text="1"/>
+
+        <LinearLayout
+            style="@style/llt_spec_line"/>
+
+        <TextView
+            style="@style/lbl_processing.done"
+            android:text="2"/>
+
+        <LinearLayout
+            style="@style/llt_spec_line"/>
+        <TextView
+            style="@style/lbl_processing.done"
+            android:text="3"/>
+
+        <LinearLayout
+            style="@style/llt_spec_line"/>
+
+        <TextView
+            style="@style/lbl_processing.done"
+            android:text="4"/>
+
+        <LinearLayout
+            style="@style/llt_spec_line"/>
+
+        <TextView
+            style="@style/lbl_processing.doing"
+            android:text="5"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/txt_save_algo_name"
+                style="@style/lbl_content.black"
+                android:layout_width="match_parent"
+                android:hint="@string/save_function_name"
+                android:textColorHint="@color/colorTextHint"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/txt_save_algo_description"
+                style="@style/lbl_content.black"
+                android:layout_width="match_parent"
+                android:hint="@string/save_function_description"
+                android:textColorHint="@color/colorTextHint"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    style="@style/lbl_content.black"
+                    android:gravity="center"
+                    android:text="@string/save_algorithm_detail"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/lbl_save_detail"
+                    style="@style/lbl_content.black" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <Button
+            style="@style/mb_back.green"
+            android:text="@string/common_save"
+            android:onClick="onClickBtnSave"/>
+    </LinearLayout>
+</LinearLayout>

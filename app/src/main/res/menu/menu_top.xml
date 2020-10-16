@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_top"
+        android:enabled="true"
+        android:icon="@drawable/ic_selecter_white"
+        app:showAsAction="ifRoom"
+        android:title="@string/main_select" />
+
+    <item
+        android:id="@+id/action_upload"
+        android:enabled="true"
+        android:icon="@drawable/ic_file_upload"
+        app:showAsAction="ifRoom"
+        android:title="@string/main_select" />
+
+</menu>

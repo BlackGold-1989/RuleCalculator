@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorFrgBack"
+    tools:context=".activity.SelFunctionActivity"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_marginBottom="1dp"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorMainGreen"
+        app:title="@string/select_functions_title"
+        app:titleTextColor="@color/colorMainWhite"
+        app:navigationIcon="@drawable/ic_left_white"
+        android:theme="@style/ToolbarTheme"
+        android:elevation="5dp" />
+
+    <LinearLayout
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            style="@style/lbl_processing.done"
+            android:text="1"/>
+
+        <LinearLayout
+            style="@style/llt_spec_line"/>
+
+        <TextView
+            style="@style/lbl_processing.doing"
+            android:text="2"/>
+
+        <LinearLayout
+            style="@style/llt_spec_line"/>
+
+        <TextView
+            style="@style/lbl_processing.will"
+            android:text="3"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            style="@style/lbl_detail.black"
+            android:text="@string/sel_function_description"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+        <ListView
+            android:id="@+id/lst_sel_functions"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <Button
+            android:text="@string/common_next"
+            style="@style/mb_back.green"
+            android:onClick="onClickSelFunctionNextBtn"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,380 @@
+<resources>
+    <string name="app_name">算料神器</string>
+
+    <string name="common_agree">同意</string>
+    <string name="common_reject">拒绝</string>
+    <string name="common_cancel">取消</string>
+    <string name="common_accept">了解</string>
+    <string name="common_test">测试</string>
+    <string name="common_result">结果</string>
+    <string name="common_pass">密码</string>
+    <string name="common_calculate">计算</string>
+    <string name="common_connect">正在连接...</string>
+    <string name="common_save">保存</string>
+    <string name="common_next">下一步</string>
+    <string name="common_nickname">昵称</string>
+
+    <string name="pay_unit">元</string>
+    <string name="menu_logout">登出</string>
+    <string name="menu_profile">轮廓</string>
+    <string name="call_support_team">致电支持团队</string>
+    <string name="support_term_title" translatable="false">用户使用服务协议</string>
+    <string name="alert_title">警报</string>
+    <string name="alert_message">您真的要現在付款嗎？</string>
+    <string name="help_action">帮助（10 元）</string>
+
+    <string name="progress_title">载入中</string>
+    <string name="progress_detail">从服务器获取一些数据......</string>
+
+    <string name="payed_btn_01" translatable="false">99</string>
+    <string name="payed_btn_02" translatable="false">4995</string>
+    <string name="payed_btn_03" translatable="false">9990</string>
+    <string name="payed_btn_04" translatable="false">15900</string>
+    <string name="payed_btn_05" translatable="false">1000</string>
+    <string name="payed_btn_06" translatable="false">99</string>
+
+    <string name="nav_name">金英哲</string>
+    <string name="nav_location">ShenYang, China</string>
+    <string name="nav_open">打开</string>
+    <string name="nav_close">关闭</string>
+    <string name="nav_lbl_pay">支付</string>
+    <string name="nav_lbl_func">产品数量</string>
+    <string name="nav_lbl_rfunc">用户功能</string>
+
+    <string name="main_empty_select">你应该选择更多的功能。</string>
+    <string name="main_same_select">您应该选择具有相同参数计数的函数。</string>
+
+    <string name="alert_server_error_detail">错误服务器，请在几分钟后试用。</string>
+    <string name="alert_error_internet_detail">请检查您的互联网。</string>
+    <string name="alert_waring_title">警告</string>
+    <string name="alert_para_able_detail">名称仅适用于 \'a~z \'和\'_ \'，\'0~9 \'。</string>
+    <string name="alert_create_add">此功能没有任何参数。 请添加更多。</string>
+    <string name="alert_custom_title">添加参数值</string>
+    <string name="alert_custom_detail">请输入您的价值。 在这里，每个值用逗号分隔。</string>
+    <string name="alert_custom_failed">这个值是错误的。 请输入正确的值。</string>
+
+    <string name="dig_down_title">个人信息保护政策</string>
+    <string name="dig_down_content"> 亲爱的用户，首先感谢您选择并使用 算料神器APP , 算料神器致力于打造更便捷的计算 服务平台。 \n 为了更好的保护您的个人信息安 全，请您充分了解在注册使用算料神器过程中我们可能收集、使用或共享您个人信息的情形。\n 我们会根据您使用服务的具体功能需 要收集您的个人信息（如您在注册使用时的注册信息， 计算使用时的输入信息），具体详见《算料神器 隐私政策》。 算料神器将严格保护您的个人信息，确保信息 安全。 \n 您在点击同意下列协议前，务必审慎 阅读，并充分理解协议条款内容。</string>
+
+    <string name="dig_privacy_policy">用户隐私协议</string>
+    <string name="dig_user_agreement">用户使用协议</string>
+
+    <string name="dialog_term_title" translatable="false">用户隐私协议</string>
+    <string name="dialog_term_privacy" translatable="false">1、适用范围： \n
+（1）在用户注册算料神器账户时，根据要求提供的个人注册信息； \n
+（2）在用户使用算料神器，或访问其相关网页时，算料神器自动接收并记录的用户浏览器上的服务器数值，包括但不限于IP地址等数据及用户要求取用的网页记录。 \n
+2、信息使用： \n
+（1）算料神器不会向任何人出售或出借用户的个人信息，除非事先得到用户的许可； \n
+（2）算料神器亦不允许任何第三方以任何手段收集、编辑、出售或者无偿传播用户的个人信息。任何用户如从事上述活动，一经发现，算料神器有权立即终止与该用户的服务协议，查封其账号； \n
+（3）为达到服务用户的目的，算料神器可能通过使用用户的个人信息，向用户提供服务，包括但不限于向用户发出产品和服务信息，或者与算料神器合作伙伴共享信息以便他们向用户发送有关其产品和服务的信息。 \n
+3、信息披露：用户的个人信息将在下述情況下部分或全部被披露： \n
+（1）经用用户同意，向第三方披露； \n
+（2）根据法律的有关规定，或者行政或司法机构的要求，向第三方或者行政、司法机构披露； \n
+（3）如果用户出现违反中国有关法律或者网站政策的情况，需要向第三方披露； \n
+（4）为提供用户所要求的产品和服务，而必须和第三方分享用户的个人信息； \n
+（5）其它算料神器根据法律或者网站政策认为合适的披露； \n
+（6）用户使用算料神器时提供的银行账户信息，算料神器将严格履行关保密约定。 \n
+ \n
+十一、其他 \n
+1、算料神器郑重提醒用户注意本协议中免除算料神器来责任和和限制用户权利的条款，请用户仔细阅读，自主考虑风险。未成年人应在法定监护人的陪同下阅读本协议。 \n
+2、本协议的效力、解释及纠纷的解决，适用于中华人民共和国法律。若用户和算料神器之间发生任何纠纷或争议，首先应友好协解决，协商不成的，用户同意将纠纷或争议提交算料神器住所地有管辖权的人民法院管辖。 \n
+3、本协议的任何条款无论因何种原因无效或不具可执行性，其余条款仍有效，对双方具有约束力。 \n
+4、本协议最终解释权归算料神器有限公司所有，并且保留一切解释和修改的权力。 \n
+</string>
+
+    <string name="dig_term_detail" translatable="false">
+        1、适用范围：
+\n （1）在用户注册算料神器账户时，根据要求提供的个人注册信息；
+\n （2）在用户使用算料神器，或访问其相关网页时，算料神器自动接收并记录的用户浏览器上的服务器数值，包括但不限于IP地址等数据及用户要求取用的网页记录。
+\n 2、信息使用：
+\n （1）算料神器不会向任何人出售或出借用户的个人信息，除非事先得到用户的许可；
+\n （2）算料神器亦不允许任何第三方以任何手段收集、编辑、出售或者无偿传播用户的个人信息。任何用户如从事上述活动，一经发现，算料神器有权立即终止与该用户的服务协议，查封其账号；
+\n （3）为达到服务用户的目的，算料神器可能通过使用用户的个人信息，向用户提供服务，包括但不限于向用户发出产品和服务信息，或者与算料神器合作伙伴共享信息以便他们向用户发送有关其产品和服务的信息。
+\n 3、信息披露：用户的个人信息将在下述情況下部分或全部被披露：
+\n （1）经用用户同意，向第三方披露；
+\n （2）根据法律的有关规定，或者行政或司法机构的要求，向第三方或者行政、司法机构披露；
+\n （3）如果用户出现违反中国有关法律或者网站政策的情况，需要向第三方披露；
+\n （4）为提供用户所要求的产品和服务，而必须和第三方分享用户的个人信息；
+\n （5）其它算料神器根据法律或者网站政策认为合适的披露；
+\n （6）用户使用算料神器时提供的银行账户信息，算料神器将严格履行关保密约定。
+\n
+\n 十一、其他
+\n 1、算料神器郑重提醒用户注意本协议中免除算料神器来责任和和限制用户权利的条款，请用户仔细阅读，自主考虑风险。未成年人应在法定监护人的陪同下阅读本协议。
+\n 2、本协议的效力、解释及纠纷的解决，适用于中华人民共和国法律。若用户和算料神器之间发生任何纠纷或争议，首先应友好协解决，协商不成的，用户同意将纠纷或争议提交算料神器住所地有管辖权的人民法院管辖。
+\n 3、本协议的任何条款无论因何种原因无效或不具可执行性，其余条款仍有效，对双方具有约束力。
+\n 4、本协议最终解释权归算料神器有限公司所有，并且保留一切解释和修改的权力。
+\n 5、本协议自2019年10月1日起适用。
+</string>
+
+    <string name="dig_agree_detail">
+        一、特别提示 \n
+在此特别提醒您（用户）在注册成为算料神器用户之前，请认真阅读本《算料神器用户服务协议》（以下简称“协议”），确保您充分理解本协议中各条款。请您审慎阅读并选择接受或不接受本协议。您同意并点击确认本协议条款且完成注册程序后，才能成为算料神器的正式注册用户，并享受算料神器的各类服务。您的注册、登录、使用等行为将视为对本协议的接受，并同意接受本协议各项条款的约束。若您不同意本协议，或对本协议中的条款存在任何疑问，请您立即停止算料神器用户注册程序，并可以选择不使用本网站服务。
+本协议约定算料神器与用户之间关于“算料神器”服务（以下简称“服务”）的权利义务。“用户”是指注册、登录、使用本服务的个人、单位。本协议可由算料神器随时更新，更新后的协议条款一旦公布即代替原来的协议条款，恕不再另行通知，用户可在本APP中查阅最新版协议条款。在修改协议条款后，如果用户不接受修改后的条款，请立即停止使用算料神器提供的服务，用户继续使用算料神器提供的服务将被视为接受修改后的协议。
+
+\n 二、账号注册
+\n 1、用户在使用本服务前需要注册一个“算料神器”账号。“算料神器”账号应当使用微信绑定注册，请用户使用尚未与“算料神器”账号绑定的微信，以及未被算料神器根据本协议封禁的微信注册“算料神器”账号。算料神器可以根据用户需求或产品需要对账号注册和绑定的方式进行变更，而无须事先通知用户。
+\n 2、如果注册申请者有被算料神器封禁的先例或涉嫌虚假注册及滥用他人名义注册，及其他不能得到许可的理由，算料神器将拒绝其注册申请。
+\n 3、鉴于“算料神器”账号的绑定注册方式,您同意算料神器在注册时将允许您的微信账号及手机设备识别码等信息用于注册。
+\n 4、在用户注册及使用本服务时,算料神器需要搜集能识别用户身份的个人信息以便算料神器可以在必要时联系用户,或为用户提供更好的使用体验。算料神器搜集的信息包括但不限于用户的姓名、地址;算料神器同意对这些信息的使用将受限于第三条用户个人隐私信息保护的约束。
+\n
+\n 三、账户安全
+\n 1、用户一旦注册成功,成为算料神器的用户,将有权利使用自己的微信随时进行登陆**
+\n 2、用户对用户名和密码的安全负全部责任,同时对以其用户名进行的所有活动和事件负全责。
+\n 3、用户不得以任何形式擅自转让或授权他人使用自己的算料神器用户名
+\n 4、用户对密码加以妥善保管,切勿将密码告知他人,因密码保管不善而造成的所有损失由用户自行承担。
+\n 5、如果用户泄漏了密码,有可能导致不利的法律后果,因此不管任何原因导致用户的密码安全受到威胁,应该立即和算料神器客服人员取得联系,否则后果自负。
+\n
+\n 四、用户声明与保证
+\n 1、用户承诺其为具有完全民事行为能力的民事主体,且具有达成交易履行其义务的能力。
+\n 2、用户有义务在注册时提供自己的真实资料,并保证诸如手机号码、姓名、所在地区等内容的有效性及安全性,保证算料神器工作人员可以通过上述联系方式与用户取得联系。同时,用户也有义务在相关资料实际变更时及时更新有关注册资料。
+\n 3、用户通过使用算料神器的过程中所制作、上载、复制、发布、传播的任何內容,包括但不限于账号头像、名称、用户说明等注册信息及认证资料,或文字、语音、图片、视频、图文等发送、回复和相关链接页面,以及其他使用账号或本服务所产生的内容,不得违反国家相关法律制度,包含但不限于如下原则:
+\n (1)违反宪法所确定的基本原则的；
+\n (2)危害国家安全,泄露国家秘密,颠覆国家政权,破坏国家统一的；
+\n (3)损害国家荣誉和利益的；
+\n (4)煽动民族仇恨、民族歧视,破坏民族团结的；
+\n (5)破坏国家宗教政策,宣扬邪教和封建迷信的；
+\n (6)散布谣言,扰乱社公秩序,破坏社会稳定的；
+\n (7)散布淫秽、色情、赌博、暴力、凶杀、恐怖或者教唆犯罪的；
+\n (8)侮辱或者诽谤他人,侵害他人合法权益的；
+\n (9)含有法律、行政法规禁止的其他内容的。
+\n 4、用户不得利用“算料神器”账号或本服务制作、上载、复制、发布、传播下干扰“算料神器”的正常运营,以及侵犯其他用户或第三方合法权益的内容：
+\n (1)含有任何性或性暗示的；
+\n (2)含有辱骂、恐吓、威胁内容的；
+\n (3)含有骚扰、垃圾广告、恶意信息、诱骗信息的；
+\n (4)涉及他人隐私、个人信息或资料的；
+\n (5)侵害他人名誉权、肖像权、知识产权、商业秘密等合法权利的；
+\n (6)含有其他干扰本服务正常运营和侵犯其他用户或第三方合法权益内容的信息。
+\n
+\n 五、服务内容
+\n 1、算料神器是一款计算工具，他可以批量完成相同计算方法下的计算任务。
+\n 2、算料神器有权随时审核或删除用户发布/传播的涉嫌违法或违反社会主义精神文明,或者被算料神器认为不妥当的内容(包括但不限于文字、语音、图片、视频图文等)。
+\n 3、所有发给用户的通告及其他消息都可通过APP或者用户所提供的联系方式发送。
+\n
+\n 六、服务的终止
+\n 1、在下列情况下,算料神器有权终止向用户提供服务；
+\n （1）在用户违反本服务协议相关规定时，算料神器有权终止向该用户提供服务；如该用户再一次直接或间接或以他人名义注册为用户的，一经发现，算料神器有权直接单方面终止向该用户提供服务；
+\n （2）如算料神器通过用户提供的信息与用户联系时，发现用户在注册时填写的联系方式已不存在或无法接通，算料神器以其它联系方式通知用户更改，而用户在三个工作日内仍未能提供新的联系方式，算料神器有权终止向该用户提供服务；
+\n （3）用户不得通过程序或人工方式进行刷量或作弊，若发现用户有作弊行为，算料神器将立即终止服务，并有权扣留账户内金额；
+\n （4）一旦算料神器发现用户提供的数据或信息中含有虚假内容，算料神器有权随时终止向该用户提供服务；
+\n （5）本服务条款终止或更新时，用户明示不愿接受新的服务条款；
+\n （6）以及其他算料神器认为需要终止服务的情况。
+\n 2、服务终止后，算料神器没有义务为用户保留原账号中或与之相关的任何信息，或转发任何未曾阋读或发送的信息给用户或第三方。
+\n 3、用户理解并同意，即便在本协议终止及用户的服务被终止后，算料神器仍有权：
+\n （1）继续续保存您的用户信息；
+\n （2）继续向用户主张在其使用服务期间因违反法律法规、本协议及平台规则而应承担的责任。
+\n
+\n 七、服务的变更、中断
+\n 1、鉴于网络服务的特殊性，用户需同意算料神器会变更、中断部分或全部的网络服务，并删除（不再保存）用户在使用过程中提交的任何资料，而无需通知用户，也无需对任何用户或任何第三方承担任何责任。
+\n 2、算料神器需要定期或不定期地对提供网络服务的平台进行检测或者更新，如因此类情况而造成网络服务在合理时间内的中断，算料神器无需为此承担任何责任。
+\n
+\n 八、服务条款修改
+\n 1、算料神器有权随时修改本服务条款的任何内容，一旦本服务条款的任何内容发生变动，算料神器将会通过适当方式向用户提示修改内容。
+\n 2、如果不同意算料神器对本服务条款所做的修改，用户有权停止使用网络服务。
+\n 3、如果用户继续使用网络服务，则视为用户接受算料神器对本服务条款所做的修改。
+\n
+\n 九、免责与赔偿声明
+\n 1、若算料神器已经明示其服务提供方式发生变更并提醒用户应当注意事项，用户未按要求操作所产生的一切后果由用户自行承担。
+\n 2、用户明确同意其使用算料神器所存在的风险将完全由其自己承担，因其使用算料神器而产生的一切后果也由其自己承担。
+\n 3、用户同意保障和维护算料神器及其他用户的利益，由于用户在使用算料神器有违法、不真实、不正当、侵犯第三方合法权益的行为，或用户违反本协议项下的任何条款而给算料神器及任何其他第三方造成损失，用户同意承担由此造成的损害赔偿责任。
+    </string>
+
+    <string name="item_create_name">名称</string>
+    <string name="item_create_description">描述</string>
+
+    <string name="login_userid">用户身份</string>
+    <string name="login_userid_hint">请输入您的身份证</string>
+    <string name="login_forgot">忘记密码？</string>
+    <string name="login_remember">&#160;记住帐号</string>
+    <string name="login_title">登录</string>
+    <string name="login_agree_title">登录及代表同意</string>
+    <string name="login_and">以及</string>
+    <string name="login_or">和</string>
+    <string name="login_term_detail" translatable="false">
+        1、适用范围：
+\n （1）在用户注册算料神器账户时，根据要求提供的个人注册信息；
+\n （2）在用户使用算料神器，或访问其相关网页时，算料神器自动接收并记录的用户浏览器上的服务器数值，包括但不限于IP地址等数据及用户要求取用的网页记录。
+\n 2、信息使用：
+\n （1）算料神器不会向任何人出售或出借用户的个人信息，除非事先得到用户的许可；
+\n （2）算料神器亦不允许任何第三方以任何手段收集、编辑、出售或者无偿传播用户的个人信息。任何用户如从事上述活动，一经发现，算料神器有权立即终止与该用户的服务协议，查封其账号；
+\n （3）为达到服务用户的目的，算料神器可能通过使用用户的个人信息，向用户提供服务，包括但不限于向用户发出产品和服务信息，或者与算料神器合作伙伴共享信息以便他们向用户发送有关其产品和服务的信息。
+\n 3、信息披露：用户的个人信息将在下述情況下部分或全部被披露：
+\n （1）经用用户同意，向第三方披露；
+\n （2）根据法律的有关规定，或者行政或司法机构的要求，向第三方或者行政、司法机构披露；
+\n （3）如果用户出现违反中国有关法律或者网站政策的情况，需要向第三方披露；
+\n （4）为提供用户所要求的产品和服务，而必须和第三方分享用户的个人信息；
+\n （5）其它算料神器根据法律或者网站政策认为合适的披露；
+\n （6）用户使用算料神器时提供的银行账户信息，算料神器将严格履行关保密约定。
+\n
+\n 十一、其他
+\n 1、算料神器郑重提醒用户注意本协议中免除算料神器来责任和和限制用户权利的条款，请用户仔细阅读，自主考虑风险。未成年人应在法定监护人的陪同下阅读本协议。
+\n 2、本协议的效力、解释及纠纷的解决，适用于中华人民共和国法律。若用户和算料神器之间发生任何纠纷或争议，首先应友好协解决，协商不成的，用户同意将纠纷或争议提交算料神器住所地有管辖权的人民法院管辖。
+\n 3、本协议的任何条款无论因何种原因无效或不具可执行性，其余条款仍有效，对双方具有约束力。
+\n 4、本协议最终解释权归算料神器有限公司所有，并且保留一切解释和修改的权力。
+\n 5、本协议自2019年10月1日起适用。
+</string>
+
+    <string name="main_project">项目</string>
+    <string name="main_function">功能</string>
+    <string name="main_share">分享</string>
+    <string name="main_history">历史</string>
+    <string name="main_profile">轮廓</string>
+    <string name="main_post">发布</string>
+    <string name="main_select">选择</string>
+    <string name="main_add">补充</string>
+    <string name="main_params">参量 :</string>
+
+    <string name="guide_func_title">创建功能</string>
+    <string name="guide_step1_title">1。 准备创建功能。</string>
+    <string name="guide_step2_title">2。 设置功能参数。</string>
+    <string name="guide_step3_title">3。 编辑功能的算法。</string>
+    <string name="guide_step4_title">4。 测试创建的函数。</string>
+    <string name="guide_step5_title">5。 保存创建功能。</string>
+    <string name="guide_step1_desc1">第一步是准备步骤。</string>
+    <string name="guide_step1_desc2">所有用户都可以在此处了解创建功能的每个步骤。</string>
+    <string name="guide_step1_desc3">如果您完成每一步，您可以按“下一步”按钮并转到下一步。</string>
+
+    <string name="setting_parameters_title">设置参数</string>
+    <string name="set_para_detail">您应该为创建函数设置一些参数。 如果添加，您可以单击“+”按钮。 如果编辑，则可以单击列表项。 如果转到下一步，请单击“下一步”按钮。</string>
+    <string name="setpara_add">添加参数</string>
+    <string name="setpara_edit">编辑参数</string>
+    <string name="setpara_hint_name">少于5个字符</string>
+    <string name="setpara_hint_desc">少于10个字符</string>
+    <string name="setpara_code_add">投入</string>
+    <string name="setpara_code_edit">编辑</string>
+    <string name="setpara_alert_delete">删除参数</string>
+    <string name="setpara_alert_deletedetail">您确定要删除此参数吗？</string>
+    <string name="setpara_alert_waring">华林</string>
+    <string name="setpara_alert_wrong">这个名字错了。 请改变它。</string>
+
+    <string name="formula_title">编辑算法</string>
+    <string name="formula_calculate">计算公式</string>
+    <string name="formula_less" translatable="false"><![CDATA[<]]></string>
+    <string name="formula_more" translatable="false"><![CDATA[>]]></string>
+    <string name="formula_save">保存</string>
+    <string name="formula_alert_detail">请输入您的功能名称。</string>
+    <string name="formula_cancel" translatable="false">Cancel</string>
+    <string name="formula_description">配方说明</string>
+
+    <string name="test_algorithm_title">测试算法</string>
+    <string name="test_algorithm">算法</string>
+
+    <string name="save_algorithm_title">保存算法</string>
+    <string name="save_function_name">功能名称</string>
+    <string name="save_function_description">功能说明</string>
+    <string name="save_algorithm_detail">算法细节</string>
+
+    <string name="create_project_title">创建项目</string>
+    <string name="create_toast_name">您应该输入项目名称。</string>
+
+    <string name="guide_title">指南线</string>
+    <string name="guide_step1_ptitle">1。 准备创建项目。</string>
+    <string name="guide_step2_ptitle">2。 选择项目功能。</string>
+    <string name="guide_step3_ptitle">3。 保存已创建的项目。</string>
+    <string name="guide_step1_pdesc1">第一步是准备步骤。</string>
+    <string name="guide_step1_pdesc2">所有用户都可以在此处了解创建项目的每个步骤。</string>
+    <string name="guide_step1_pdesc3">如果完成每个步骤，可以按“下一步”按钮并转到下一步。</string>
+    <string name="guide_name_rule">类，函数和参数的名称仅由\'a~z\'，\'_\'和\'0~9\'组成。</string>
+    <string name="guide_name">1。 名称定义</string>
+    <string name="guide_function">2。 创建功能</string>
+    <string name="guide_funtion_rule_01">所有功能必须至少有一个参数。</string>
+    <string name="guide_function_rule_02">所有功能必须只有一个算法。</string>
+    <string name="guide_alogrithm">3。 编辑算法</string>
+    <string name="guide_algorithm_rule_01">输入功能描述的编辑视图是编辑屏幕的顶部。</string>
+    <string name="guide_algorithm_rule_02">功能的主要参数是键盘的顶部。</string>
+    <string name="guide_algorithm_rule_03">p1~p7是辅助参数。</string>
+    <string name="guide_algorithm_rule_04">关键字全部是28个关键字。</string>
+    <string name="guide_algorithm_rule_05"><![CDATA[关键字由数字键（0~9），操作键（/，*，+，-），逻辑键（<，>，if），包键（（，），{，}）和其他键组成 （AC，Enter（En），Back（<），Space（_），Result（Re），Equal（=），Point（。））。]]></string>
+    <string name="guide_algorithm_rule_06">输入所有密钥后，用户必须输入空格键（_）。</string>
+    <string name="guide_algorithm_rule_07">输入包含“Re”的句子后，用户无法编辑更多内容。</string>
+    <string name="guide_algorithm_rule_08">在代码句末尾，用户必须输入“En”（Enter）键。</string>
+    <string name="guide_algorithm_rule_09">输入所有参数时，代码会自动在它们前面添加“$”符号。</string>
+    <string name="guide_algorithm_rule_10">当输入回车键 (“En”), 时，代码自动在其末尾添加“ ;”符号。</string>
+    <string name="guide_algorithm_rule_11">在下面，显示示例以编辑代码。</string>
+    <string name="guide_algorithm_rule_12">当知道三条边时，获取三角形区域的算法。</string>
+    <string name="guide_algorithm_rule_13"><![CDATA[$p1 = ( $a + $b + $c ) / 2 ;
+        \n$p2 = $p1 - $a ;
+        \n$p3 = $p1 - $b ;
+        \n$p4 = $p1 - $c ;
+        \nif ( $p1 < 0 ) {
+        \n$p1 = 0 ;
+        \n}
+        \nif ( $p2 < 0 ) {
+        \n$p2 = 0 ;
+        \n}
+        \nif ( $p3 < 0 ) {
+        \n$p3 = 0 ;
+        \n}
+        \n$Re = $p1 * $p2 * $p3 * $p4 ;
+        \n 在这里，a，b和c是三角形的三个边的长度。
+    ]]></string>
+    <string name="guide_algorithm_rule_14"><u>如果您看到指南的视频，请单击此处。</u></string>
+    <string name="guide_algorithm_rule_15"><u>如果您有任何疑问，请点击这里。</u></string>
+    <string name="guide_calculate">4。 计算算法</string>
+    <string name="guide_calculate_rule_01">在计算算法时，输入值是使用值文档（* .txt）。</string>
+    <string name="guide_calculate_rule_02">例1（参数计数为2.）:
+        \n1.5,10.5
+        \n2.5,9.5
+        \n3.5,8.5
+        \n4.5,7.5
+        \n5.5,6.5
+    </string>
+    <string name="guide_calculate_rule_03">例2（参数计数为3.）:
+        \n1.5,10.5,6.5
+        \n2.5,9.5,7.5
+        \n3.5,8.5,8.5
+        \n4.5,7.5,9.5
+        \n5.5,6.5,10.5
+    </string>
+
+    <string name="select_functions_title">选择功能</string>
+    <string name="sel_function_description">您可以选择一些用于创建项目的功能。 在这里，您应该选择一些具有相同参数的函数。</string>
+
+    <string name="item_function_name">功能名称</string>
+    <string name="func_item_param">%d 参数</string>
+
+    <string name="save_project_detail">在这里，您可以按项目名称创建新项目。 但是你需要付出一些钱。</string>
+    <string name="save_project_title">保存项目</string>
+    <string name="save_project_hint_name">项目名</string>
+
+    <string name="project_detail_title">项目细节</string>
+    <string name="project_detail_parameters">参数</string>
+    <string name="project_detail_function">功能</string>
+
+    <string name="calc_calculate">计算</string>
+    <string name="calc_title">计算设置</string>
+    <string name="act_content_01">编辑参数值</string>
+    <string name="act_content_02">选择TXT文件</string>
+    <string name="actionsheet_title">请选择输入法。</string>
+    <string name="calc_alert_delete_title">删除值</string>
+    <string name="calc_alert_delete_detail">您确定要删除此值吗？</string>
+
+    <string name="act_add_value_title">增加价值</string>
+    <string name="add_para_save_wrong">数据计数为零。</string>
+
+    <string name="result_title">结果</string>
+    <string name="result_back">背部</string>
+    <string name="result_alert_title">保存结果</string>
+    <string name="result_alert_detail">请输入您的文件名。</string>
+    <string name="result_para_title">参数</string>
+    <string name="result_date">日期:</string>
+    <string name="result_maker">制作者:</string>
+
+    <string name="profile_classname">班级名称</string>
+    <string name="profile_last_update">最后更新</string>
+    <string name="profile_alert_detail">请输入班级名称。</string>
+    <string name="profile_wechat_payment">微信支付</string>
+    <string name="profile_comment">评论</string>
+    <string name="profile_support">支持</string>
+    <string name="profile_function_report">功能报告</string>
+
+    <string name="edit_current_password">当前密码</string>
+    <string name="edit_new_pass">新密码</string>
+    <string name="edit_confirm_pass">确认密码</string>
+    <string name="edit_confirm_profile">确认个人资料</string>
+    <string name="formula_go_main">转到主屏幕</string>
+
+    <string name="forgot_user_id">我也忘记了我的身份证号码。</string>
+    <string name="alert_delete_project_title">删除项目</string>
+    <string name="alert_delete_project_detail">您真的要删除此项目吗？</string>
+
+</resources>

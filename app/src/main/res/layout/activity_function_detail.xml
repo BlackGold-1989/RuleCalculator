@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorFrgBack"
+    tools:context=".activity.FunctionDetailActivity"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:navigationIcon="@drawable/ic_left_white"
+        app:title="@string/app_name"
+        app:titleTextColor="@color/colorMainWhite"
+        android:background="@color/colorMainGreen"
+        android:theme="@style/ToolbarTheme"/>
+
+    <ScrollView
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    style="@style/lbl_content.black.14"
+                    android:gravity="center"
+                    android:text="Parameters"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/txt_fdetail_para"
+                    style="@style/lbl_detail.black"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    style="@style/lbl_content.black.14"
+                    android:gravity="center"
+                    android:text="Alogirthm"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/txt_fdetail_algo"
+                    android:layout_margin="10dp"
+                    style="@style/lbl_detail.black"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_marginBottom="10sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:visibility="gone">
+
+        <Button
+            android:id="@+id/btn_fdetail_edit"
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            style="@style/mt_back"
+            android:text="Edit"
+            android:onClick="onClickBtnEdit"/>
+    </LinearLayout>
+    
+</LinearLayout>

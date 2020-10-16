@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/colorMainWhite"
+    android:orientation="vertical"
+    tools:context=".activity.EditProfileActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_marginBottom="1dp"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorMainGreen"
+        app:navigationIcon="@drawable/ic_left_white"
+        android:elevation="5dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_marginTop="-350dp"
+                android:layout_width="700dp"
+                android:layout_height="500dp"
+                android:background="@drawable/green_circle"/>
+
+            <EditText
+                android:id="@+id/txt_edit_nickname"
+                style="@style/txt_profile"
+                android:inputType="textCapWords"
+                android:layout_marginTop="60dp"
+                android:drawableLeft="@drawable/ic_userid"
+                android:hint="@string/common_nickname"/>
+
+            <EditText
+                android:id="@+id/txt_edit_id"
+                style="@style/txt_profile"
+                android:inputType="textCapWords"
+                android:layout_marginTop="12dp"
+                android:drawableLeft="@drawable/ic_userid"
+                android:hint="@string/login_userid"/>
+
+            <EditText
+                android:id="@+id/txt_edit_cpass"
+                style="@style/txt_profile"
+                android:inputType="textPassword"
+                android:layout_marginTop="12dp"
+                android:drawableLeft="@drawable/ic_pass"
+                android:hint="@string/edit_current_password"/>
+
+            <EditText
+                android:id="@+id/txt_edit_npass"
+                style="@style/txt_profile"
+                android:inputType="textPassword"
+                android:layout_marginTop="12dp"
+                android:drawableLeft="@drawable/ic_pass"
+                android:hint="@string/edit_current_password"/>
+
+            <EditText
+                android:id="@+id/txt_edit_repass"
+                style="@style/txt_profile"
+                android:inputType="textPassword"
+                android:layout_marginTop="12dp"
+                android:drawableLeft="@drawable/ic_pass"
+                android:hint="@string/edit_current_password"/>
+
+            <Button
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                style="@style/mb_back.green"
+                android:text="@string/edit_confirm_profile"
+                android:onClick="onClickBtnUpdateProfile" />
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="110dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/green_circle">
+
+            <ImageView
+                android:id="@+id/img_edit_avatar"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/ic_profile"/>
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/llt_back_avatar"/>
+
+            <LinearLayout
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginTop="2dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:elevation="2dp"
+                android:gravity="center"
+                android:background="@drawable/white_circle"
+                android:onClick="onClickLltEditAvatar">
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/ic_edit" />
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>
